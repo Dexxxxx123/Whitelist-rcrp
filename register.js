@@ -5,10 +5,10 @@ const path = require('path');
 const upload = multer();
 
 const sftpConfig = {
-    host: 'your_sftp_host',
-    port: 'your_sftp_port', // default 22
-    username: 'your_username',
-    password: 'your_password' // or use privateKey for key-based auth
+    host: 'node.croneex.com',
+    port: '2022', // default 22
+    username: 'dex12345.c5cdfb11',
+    password: 'dex12345' // or use privateKey for key-based auth
 };
 
 module.exports = (req, res) => {
